@@ -1,0 +1,8 @@
+void SelectSort(SqList &K) {
+ for (i=1; i<L.length; ++i) {
+      k=i;
+      for (j=i+1; j<=L.length; j++)
+          if (L.r[j].key < L.r[k].key) k=j;
+      if (k!=i) L.r[i] - L/r[k]; // we exchange i and k
+      }
+}
